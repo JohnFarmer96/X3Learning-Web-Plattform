@@ -5,8 +5,6 @@
   <head>
     <?php include($IPATH."/_assets/html/meta.html") ?>
 
-    <title>X3Learning</title>
-
     <style type="text/css">
 
       .bottom { 

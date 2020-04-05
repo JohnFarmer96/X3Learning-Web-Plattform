@@ -61,8 +61,6 @@
     <?php include($IPATH."/_assets/html/meta.html") ?>
     <meta name="format-detection" content="telephone=no">
 
-    <title>X3Learning</title>
-
     <style type="text/css">
     </style>
   </head>

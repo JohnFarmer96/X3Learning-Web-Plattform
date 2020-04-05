@@ -4,8 +4,6 @@
 <html lang="en">
   <head>
     <?php include($IPATH."/_assets/html/meta.html") ?>
-
-    <title>X3Learning</title>
   </head>
   <body class="with-top-navbar">
 
