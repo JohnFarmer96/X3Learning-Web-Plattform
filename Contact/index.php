@@ -39,11 +39,12 @@
         $email = $_POST['email'];
         $subject = $_POST['subject'];
         $message = $_POST['message'];
-        $to = "jonathan.7@web.de";
+        $to = "x3tutoring@gmail.com";
 
-        $headers = "From: $name\n E-Mail: $email\n Tel.: $phone\n";
+        $headers = $email;
+        $personalInformation = "\n\n\n From: $name\n E-Mail: $email\n Tel.: $phone\n";
 
-        if(mail($to, $subject, $message, $headers)){
+        if(mail($to, $subject, $message.$personalInformation, $headers)){
             $phpMailMessage = '<div class="alert alert-success" role="alert"><p><strong>Erfolgreich Versendet!</strong></p></div>';
         } else {
             $phpMailMessage = '<div class="alert alert-danger" role="alert"><p><strong>Deine E-Mail konnte nicht versendet werden. Bitte versuch es später nocheinmal oder kontaktiere uns telefonisch!</strong></p>' .$error. '</div>';
@@ -58,7 +59,8 @@
 <html lang="en">
   <head>
     <?php include($IPATH."/_assets/html/meta.html") ?>
-
+    <meta name="format-detection" content="telephone=no">
+    
     <title>X3Learning</title>
 
     <style type="text/css">

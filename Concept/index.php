@@ -49,20 +49,18 @@
       </h3>
     </div>
 
-    <div class="jumbotron bg-transparent py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center p-3">
-            <img class="img-fluid" src="/_assets/img/design/progress.png">
-          </div>
-          <div class="col-md-6 py-4">
-            <p class="lead">
-              Wir glauben an dich und sind überzeugt, dass du wertvolle Möglichkeiten wahrnehmen kannst. Wir wissen aber auch aus eigener Erfahrung, dass das keiner allein schafft.
-            </p>
-            <p class="lead">
-              Deswegen begleiten unsere Learning Coaches dich in einer kleinen Lerngruppe von 2-4 Schülern. Wir sind deine Cheerleader, lösen mit dir Probleme und feuern dich an, dein Potential zu entfalten. 
-            </p>
-          </div>
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center p-3">
+          <img class="img-fluid" src="/_assets/img/design/progress.png">
+        </div>
+        <div class="col-md-6 py-4">
+          <p class="lead">
+            Wir glauben an dich und sind überzeugt, dass du wertvolle Möglichkeiten wahrnehmen kannst. Wir wissen aber auch aus eigener Erfahrung, dass das keiner allein schafft.
+          </p>
+          <p class="lead">
+            Deswegen begleiten unsere Learning Coaches dich in einer kleinen Lerngruppe von 2-4 Schülern. Wir sind deine Cheerleader, lösen mit dir Probleme und feuern dich an, dein Potential zu entfalten. 
+          </p>
         </div>
       </div>
     </div>
@@ -140,20 +138,18 @@
       </h3>
     </div>
 
-    <div class="jumbotron bg-transparent py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-last pb-5">
-            <img class="img-fluid" src="/_assets/img/design/profile.png">
-          </div>
-          <div class="col-md-6 order-md-first">
-            <p class="lead">
-              Na klar: Du musst Mathekonzepte anwenden können, deine Deutschlektüre richtig interpretieren und dich auf die nächste Klassenarbeit vorbereiten. Wir helfen dir dabei. Was aber noch viel wichtiger ist:
-            </p>
-            <p class="lead">
-              Als Learning Coaches glauben wir, dass unser Charakter, unsere Kreativität und bestimmte Fähigkeiten einen großen Einfluss auf dein Leben haben und über gute Noten in der Schule hinaus gehen.
-            </p>
-          </div>
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center order-md-last pb-5">
+          <img class="img-fluid" src="/_assets/img/design/profile.png">
+        </div>
+        <div class="col-md-6 order-md-first">
+          <p class="lead">
+            Na klar: Du musst Mathekonzepte anwenden können, deine Deutschlektüre richtig interpretieren und dich auf die nächste Klassenarbeit vorbereiten. Wir helfen dir dabei. Was aber noch viel wichtiger ist:
+          </p>
+          <p class="lead">
+            Als Learning Coaches glauben wir, dass unser Charakter, unsere Kreativität und bestimmte Fähigkeiten einen großen Einfluss auf dein Leben haben und über gute Noten in der Schule hinaus gehen.
+          </p>
         </div>
       </div>
     </div>

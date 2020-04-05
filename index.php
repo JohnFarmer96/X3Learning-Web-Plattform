@@ -100,113 +100,109 @@
       </h3>
     </div>
 
-    <div class="">
+    <div id="carousel-quotes" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators ">
+        <li data-target="#carousel-quotes" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-quotes" data-slide-to="1"></li>
+        <li data-target="#carousel-quotes" data-slide-to="2"></li>
+        <li data-target="#carousel-quotes" data-slide-to="3"></li>
+        <li data-target="#carousel-quotes" data-slide-to="4"></li>
+      </ol>
 
-      <div id="carousel-quotes" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators ">
-          <li data-target="#carousel-quotes" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-quotes" data-slide-to="1"></li>
-          <li data-target="#carousel-quotes" data-slide-to="2"></li>
-          <li data-target="#carousel-quotes" data-slide-to="3"></li>
-          <li data-target="#carousel-quotes" data-slide-to="4"></li>
-        </ol>
+      <div class="container my-4">
+        <div class="carousel-inner" role="listbox">
 
-        <div class="container my-4">
-          <div class="carousel-inner" role="listbox">
-
-            <div class="carousel-item active">
-              <div class="card bg-transparent border-0 h-100 mb-5">
-                <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/frank-wagner.png" style="width: 50%; max-width: 300px;">
-                <div class="text-center mt-5 mx-3">
-                  <p class="text-2w">
-                    "Bildung im 21.Jahrhundert braucht uns alle. Schule kann und sollte sich im Stadtteil öffnen und alle verfügbaren Ressourcen einbinden, um unsere Kinder mit den notwendigen Kompetenzen der Zukunft auszustatten. Deshalb unterstütze ich die Initiative von X&hairsp;<sup>3</sup>Learning."
-                  <p>
-                </div>
-                <div class="text-center">
-                  <p class="text-2w text-muted">
-                    Frank Wagner, Schulleiter Gebrüder-Grimm-Schule Hamm (Schule des Jahres 2019)
-                  <p>
-                </div>
+          <div class="carousel-item active">
+            <div class="card bg-transparent border-0 h-100 mb-5">
+              <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/frank-wagner.png" style="width: 50%; max-width: 300px;">
+              <div class="text-center mt-5 mx-3">
+                <p class="text-2w">
+                  "Bildung im 21.Jahrhundert braucht uns alle. Schule kann und sollte sich im Stadtteil öffnen und alle verfügbaren Ressourcen einbinden, um unsere Kinder mit den notwendigen Kompetenzen der Zukunft auszustatten. Deshalb unterstütze ich die Initiative von X&hairsp;<sup>3</sup>Learning."
+                <p>
+              </div>
+              <div class="text-center">
+                <p class="text-2w text-muted">
+                  Frank Wagner, Schulleiter Gebrüder-Grimm-Schule Hamm (Schule des Jahres 2019)
+                <p>
               </div>
             </div>
-
-            <div class="carousel-item">
-              <div class="card bg-transparent border-0 h-100 mb-5">
-                <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/momo.png" style="width: 50%; max-width: 300px;">
-                <div class="text-center mt-5 mx-3">
-                  <p class="text-2w">
-                    "Ich bin sehr sehr zufrieden mit meinem Nachhilfelehrer. Alles was ich nicht Verstanden habe, konnte ich im Förderunterricht bearbeiten. Das hat mir sehr geholfen. Ich bin sehr sehr dankbar für das Programm und werde das Angebot weiterhin nutzen!"
-                  <p>
-                </div>
-                <div class="text-center">
-                  <p class="text-2w text-muted">
-                    Momo, Schüler
-                  <p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="card bg-transparent border-0 h-100 mb-5">
-                <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/meeti-hewig.png" style="width: 50%; max-width: 300px;">
-                <div class="text-center mt-5 mx-3">
-                  <p class="text-2w">
-                    "Es ist für mich eine Bereicherung als Learning Coach zu arbeiten, weil ich die Kinder mit den Familien zusammen begleiten darf, Beziehungen aufbaue und sehe wie sie schulische Fortschritte machen und auch persönlich wachsen. Zudem macht es mich zu einem geduldigeren Menschen und inspiriert mich mein eigenes Lernen in der Uni effektiver zu gestalten."
-                  <p>
-                </div>
-                <div class="text-center">
-                  <p class="text-2w text-muted">
-                    Meeti Hewig, Learning Coach
-                  <p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="card bg-transparent border-0 h-100 mb-5">
-                <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/adel.png" style="width: 50%; max-width: 300px;">
-                <div class="text-center mt-5 mx-3">
-                  <p class="text-2w">
-                  "Der Unterricht ist sehr hilfreich für uns Schüler. Wir haben sonst niemanden, mit dem wir lernen und ist es sehr schwer alleine klarzukommen. In den Nachhilfestunden bekommen wir die Möglichkeit, die Themen aus der Schule nochmal mit Unterstützung zu wiederholen. Das hilft mir sehr.“
-                  <p>
-                </div>
-                <div class="text-center">
-                  <p class="text-2w text-muted">
-                    Adel, Schüler
-                  <p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="card bg-transparent border-0 h-100 mb-5">
-                <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/simon-geissendoerfer.png" style="width: 50%; max-width: 300px;">
-                <div class="text-center mt-5 mx-3">
-                  <p class="text-2w">
-                    "Als Learning Coach zu arbeiten ist zwar herausfordernd, aber gleichzeitig unglaublich bereichernd und wahrscheinlich der erfüllendste Nebenjob den ich je hatte."
-                  <p>
-                </div>
-                <div class="text-center">
-                  <p class="text-2w text-muted">
-                    Simon Geissendörfer, Learning Coach
-                  <p>
-                </div>
-              </div>
-            </div>
-
           </div>
-        </div>
 
-        <a class="carousel-control-prev" href="#carousel-quotes" role="button" data-slide="prev">
-          <span class="icon icon-chevron-thin-left" aria-hidden="false"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-quotes" role="button" data-slide="next">
-          <span class="icon icon-chevron-thin-right" aria-hidden="false"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <div class="carousel-item">
+            <div class="card bg-transparent border-0 h-100 mb-5">
+              <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/momo.png" style="width: 50%; max-width: 300px;">
+              <div class="text-center mt-5 mx-3">
+                <p class="text-2w">
+                  "Ich bin sehr sehr zufrieden mit meinem Nachhilfelehrer. Alles was ich nicht Verstanden habe, konnte ich im Förderunterricht bearbeiten. Das hat mir sehr geholfen. Ich bin sehr sehr dankbar für das Programm und werde das Angebot weiterhin nutzen!"
+                <p>
+              </div>
+              <div class="text-center">
+                <p class="text-2w text-muted">
+                  Momo, Schüler
+                <p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card bg-transparent border-0 h-100 mb-5">
+              <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/meeti-hewig.png" style="width: 50%; max-width: 300px;">
+              <div class="text-center mt-5 mx-3">
+                <p class="text-2w">
+                  "Es ist für mich eine Bereicherung als Learning Coach zu arbeiten, weil ich die Kinder mit den Familien zusammen begleiten darf, Beziehungen aufbaue und sehe wie sie schulische Fortschritte machen und auch persönlich wachsen. Zudem macht es mich zu einem geduldigeren Menschen und inspiriert mich mein eigenes Lernen in der Uni effektiver zu gestalten."
+                <p>
+              </div>
+              <div class="text-center">
+                <p class="text-2w text-muted">
+                  Meeti Hewig, Learning Coach
+                <p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card bg-transparent border-0 h-100 mb-5">
+              <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/adel.png" style="width: 50%; max-width: 300px;">
+              <div class="text-center mt-5 mx-3">
+                <p class="text-2w">
+                "Der Unterricht ist sehr hilfreich für uns Schüler. Wir haben sonst niemanden, mit dem wir lernen und ist es sehr schwer alleine klarzukommen. In den Nachhilfestunden bekommen wir die Möglichkeit, die Themen aus der Schule nochmal mit Unterstützung zu wiederholen. Das hilft mir sehr.“
+                <p>
+              </div>
+              <div class="text-center">
+                <p class="text-2w text-muted">
+                  Adel, Schüler
+                <p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card bg-transparent border-0 h-100 mb-5">
+              <img class="card-img-top img-fluid mx-auto" src="/_assets/img/quotes/simon-geissendoerfer.png" style="width: 50%; max-width: 300px;">
+              <div class="text-center mt-5 mx-3">
+                <p class="text-2w">
+                  "Als Learning Coach zu arbeiten ist zwar herausfordernd, aber gleichzeitig unglaublich bereichernd und wahrscheinlich der erfüllendste Nebenjob den ich je hatte."
+                <p>
+              </div>
+              <div class="text-center">
+                <p class="text-2w text-muted">
+                  Simon Geissendörfer, Learning Coach
+                <p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 
+      <a class="carousel-control-prev" href="#carousel-quotes" role="button" data-slide="prev">
+        <span class="icon icon-chevron-thin-left" aria-hidden="false"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-quotes" role="button" data-slide="next">
+        <span class="icon icon-chevron-thin-right" aria-hidden="false"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
     <!---GET ENGAGED --->
