@@ -60,7 +60,7 @@
   <head>
     <?php include($IPATH."/_assets/html/meta.html") ?>
     <meta name="format-detection" content="telephone=no">
-    
+
     <title>X3Learning</title>
 
     <style type="text/css">
@@ -74,7 +74,7 @@
     <div class="jumbotron my-5 py-5" style="background-image: url('/_assets/img/jumbotron/main-2.png'); background-position: center; background-size: cover;">
       <div class="container">
         <h1 class="display-4 text-center mb-3">Interesse geweckt?</h1>
-        <p class="text-regular text-center mx-auto px-5">Falls Sie Fragen haben oder mehr über uns wissen wollen, kontaktieren Sie uns gerne mit diesem Formular. Für dringende Angelegenheiten stehen wir Ihnen auch unter der unten angegebenen Telefonnummer zur Verfügung.</p>
+        <p class="text-regular text-center mx-auto">Falls Sie Fragen haben oder mehr über uns wissen wollen, kontaktieren Sie uns gerne mit diesem Formular. Für dringende Angelegenheiten stehen wir Ihnen auch unter der unten angegebenen Telefonnummer zur Verfügung.</p>
         <div id="error" class="text-regular mb-5"><?php echo $phpMailMessage; ?></div>
         <div class="row">
             <div class="col-md-9 mb-md-0 mb-5">
