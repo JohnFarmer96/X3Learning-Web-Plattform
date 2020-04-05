@@ -1,0 +1,109 @@
+.text-8w {
+    font-size: 8vw;
+}
+.text-7w {
+    font-size: 7vw;
+}
+.text-6w {
+    font-size: 6vw;
+}
+.text-5w {
+    font-size: 5vw;
+}
+.text-4w {
+    font-size: 4vw;
+}
+.text-3w {
+    font-size: 3vw;
+}
+.text-2w {
+    font-size: 2vw;
+}
+.text-1w {
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-8w {
+        font-size: 48px;
+    }
+    .text-7w {
+        font-size: 42px;
+    }
+    .text-6w {
+        font-size: 36px;
+    }
+    .text-5w {
+        font-size: 30px;
+    }
+    .text-4w {
+        font-size: 24px;
+    }
+    .text-3w {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .text-2w {
+        font-size: 16px;
+    }
+    .text-1w {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-8w {
+        font-size: 96px;
+    }
+    .text-7w {
+        font-size: 84px;
+    }
+    .text-6w {
+        font-size: 72px;
+    }
+    .text-5w {
+        font-size: 60px;
+    }
+    .text-4w {
+        font-size: 48px;
+    }
+    .text-3w {
+        font-size: 36px;
+    }
+    .text-2w {
+        font-size: 24px;
+    }
+    .text-1w {
+        font-size: 12px;
+    }
+}
+
+/* Copied from other Templates */
+.text-regular {
+    font-size: 16px;
+  }
+
+
+  .featured-list {
+    list-style: none;
+    padding: 0; 
+  }
+  .featured-list .featured-list-icon-text {
+    font-size: 16px; 
+  }
+  .featured-list li {
+    position: relative;
+    padding-left: 30px; 
+  }
+  .featured-list-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0;
+    width: 20px; 
+  }
