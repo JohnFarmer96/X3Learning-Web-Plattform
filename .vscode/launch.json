@@ -5,24 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug JS via Chrome",
             "type": "chrome",
             "request": "launch",
-            "name": "Debug JS via Chrome",
-            "url": "http://localhost:8080/${relativeFile}",
+            "url": "http://x3learning.local/${relativeFile}",
             "webRoot": "${workspaceFolder}"
         },
         {
             "name": "Listen for XDebug",
             "type": "php",
             "request": "launch",
-            "port": 9000
-        },
-        {
-            "name": "Launch currently open script",
-            "type": "php",
-            "request": "launch",
-            "program": "${file}",
-            "cwd": "${fileDirname}",
             "port": 9000
         }
     ]

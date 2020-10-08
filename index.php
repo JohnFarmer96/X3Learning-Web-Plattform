@@ -1,8 +1,21 @@
-<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]; ?>
+<?php 
+  $IPATH = $_SERVER["DOCUMENT_ROOT"]; 
+  if( substr($IPATH, -1) == '/') $IPATH = substr_replace($IPATH, "", -1) 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <?php
+      function debug_to_console($data) {
+        $output = $data;
+        if (is_array($output))
+            $output = implode(',', $output);
+
+        echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+      }
+    ?>
+    <?php debug_to_console($IPATH)?>
     <?php include($IPATH."/_assets/html/meta.html") ?>
 
     <style type="text/css">
@@ -220,7 +233,7 @@
               <div class="p-3 mb-5">
                 <p class="h2">Schüler/-innen</p>
                 <div class="card-text my-3">
-                  <p class="lead"> Du bist ein neugieriger Schüler, der bereit ist an sich zu arbeiten? Du willst endlich langfrisitige Erfolge sehen und Neues dazulernen? Wir unterstützen dich gerne!</p>
+                  <p class="lead"> Du bist ein neugieriger Schüler, der bereit ist an sich zu arbeiten? Du willst endlich langfristige Erfolge sehen und Neues dazulernen? Wir unterstützen dich gerne!</p>
                 </div>   
               </div>
               <div class="bottom text-center">
@@ -296,7 +309,7 @@
       $('#signup-parent').click( function () {
         window.location.href = "/Contact/index.php";
       });
-      
+
     </script>
   </body>
 </html>
